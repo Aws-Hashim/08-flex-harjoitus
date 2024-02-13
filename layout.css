@@ -1,0 +1,230 @@
+/* mobile first*/
+@media  screen and (min-width: 426px)
+{
+html{
+    font-size: 62.5%;
+
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:  1rem;
+    background-color: darkcyan;
+
+}
+section{
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.wrapper > *{
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+.header{
+     background-color: gold;}
+
+.main{
+     background-color: darkorange;
+    }
+
+
+ .main-nav{
+        background-color: lightgray;
+        padding:0;
+        display: none;
+        
+        }
+    
+       .main-nav ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        
+    }
+    .main-nav ul > *{
+       flex-grow: 1;
+       flex-basis: 0;
+       text-align: center;
+       padding: 1rem;
+       border: solid 1px darkslategrey;
+    }
+    .some-nav {
+        margin: 1rem -1rem -1rem -1rem;  
+        display: none;
+     }
+         
+     .some-nav ul{
+         flex-grow: flex;
+         flex-basis:row;
+         text-align: nowrap;
+         display: flex;
+     }
+     .some-nav ul > *{
+         flex-grow: 1;
+         flex-basis: 0;
+         text-align: center;
+         padding: 1rem;
+     }
+     .some-nav .icon{
+        fill: white;
+        width: 3.2rem;
+        display: inline-block;
+     }
+     .some-nav ul .facebook{
+         background-color: #4267b2;
+     }
+     .some-nav ul .twitter{
+         background-color:rgb(8, 145, 242) ;
+     }
+     .some-nav ul .email{
+         background-color: rgb(231, 187, 187);
+     }
+     .facebook .icon{
+         fill: white;
+        width: 3.2rem;
+        display: inline-block;
+     
+     }
+     
+.aside{ 
+
+}
+.aside-1{
+    background-color:mediumseagreen;
+    order:2;
+}
+.aside-2{
+  background-color: seagreen;
+}
+.footer{
+    background-color: lightgreen;
+    order: 7;
+
+}
+}
+/* Tablet-säänöt */
+@media  screen and (min-width: 426px)
+{
+    body{
+        background-color: lightblue;
+    }
+    .wrapper{
+        flex-direction: row;
+    }
+    .aside-1{
+        flex-basis: auto;
+    }
+    .aside-2{ 
+
+        flex-basis: auto;
+    }
+    .some-nav {
+        margin: 1rem -1rem -1rem -1rem;  
+        display: none;
+     }
+         
+     .some-nav ul{
+         flex-grow: flex;
+         flex-basis:row;
+         text-align: nowrap;
+         display: flex;
+     }
+     .some-nav ul > *{
+         flex-grow: 1;
+         flex-basis: 0;
+         text-align: center;
+         padding: 1rem;
+     }
+     .some-nav .icon{
+        fill: white;
+        width: 3.2rem;
+        display: inline-block;
+     }
+     .some-nav ul .facebook{
+         background-color: #4267b2;
+     }
+     .some-nav ul .twitter{
+         background-color:rgb(8, 145, 242) ;
+     }
+     .some-nav ul .email{
+         background-color: rgb(231, 187, 187);
+     }
+     .facebook .icon{
+         fill: white;
+        width: 3.2rem;
+        display: inline-block;
+     
+     }
+     
+    
+}
+/* Desktop-säänöt*/
+@media  screen and (min-width: 769px)
+  {
+    body{
+        background-color: lightgoldenrodyellow;
+    }
+    .aside-1{
+     order: 1;
+     flex-basis: 0px;
+    }
+
+    }
+    .main{
+        order: 2;
+        flex-basis: 400px;
+
+    }
+    .aside-2{
+        order: 3;
+        flex-basis: 0px;
+
+    }
+    .footer{
+        order: 4;
+    background-color: #4267b2;
+  }
+    .some-nav {
+        margin: 1rem -1rem -1rem -1rem;  
+        display: none;
+     }
+         
+     .some-nav ul{
+         flex-grow: flex;
+         flex-basis:row;
+         text-align: nowrap;
+         display: flex;
+     }
+     .some-nav ul > *{
+         flex-grow: 1;
+         flex-basis: 0;
+         text-align: center;
+         padding: 1rem;
+     }
+     .some-nav .icon{
+        fill: white;
+        width: 3.2rem;
+        display: inline-block;
+     }
+     .some-nav ul .facebook{
+         background-color: #4267b2;
+     }
+     .some-nav ul .twitter{
+         background-color:rgb(8, 145, 242) ;
+     }
+     .some-nav ul .email{
+         background-color: rgb(231, 187, 187);
+     }
+     .facebook .icon{
+         fill: white;
+        width: 3.2rem;
+        display: inline-block;
+     
+     }
+     
+
+
